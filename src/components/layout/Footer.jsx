@@ -44,9 +44,9 @@ const Footer = ({ scrollToSection }) => {
           <div>
             <span className="text-lg font-semibold text-amber-300 mb-4 block">Contact Info</span>
             <div className="space-y-2 text-amber-100">
-              <p>Thanjavur, Tamil Nadu, India</p>
-              <p>+91 98765 43210</p>
-              <p>info@tanjavurart.com</p>
+              <p>Bengaluru, Karnataka, India</p>
+              <p>+91 94484 87092</p>
+              <p>shreeschoolofarts@gmail.com</p>
             </div>
           </div>
         </div>
