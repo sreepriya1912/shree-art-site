@@ -15,7 +15,7 @@ const Navbar = ({ scrollToSection }) => {
           >
             <Palette className="h-8 w-8 text-amber-600" />
             <span className="text-2xl font-bold bg-gradient-to-r from-amber-600 to-red-600 bg-clip-text text-transparent">
-              Tanjore Art
+              Tanjavur Paintings by Suryanarayana Y A
             </span>
           </motion.div>
           
