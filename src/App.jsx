@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Tanjore Paintings - Authentic Traditional Art</title>
+        <title>Art works and Paintings by Shree School of Art</title>
         <meta name="description" content="Discover exquisite handcrafted Tanjore paintings featuring traditional South Indian art with gold foil work, religious themes, and cultural heritage." />
       </Helmet>
       
