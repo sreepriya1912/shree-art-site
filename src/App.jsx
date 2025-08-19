@@ -1,12 +1,15 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Toaster } from '@/components/ui/toaster';
-import Navbar from '@/components/layout/Navbar';
-import Hero from '@/components/sections/Hero';
+import Navbar1 from '@/components/layout/Navbar1';
+import Hero1 from '@/components/sections/Hero1';
 import About from '@/components/sections/About';
 import Gallery from '@/components/sections/Gallery';
 import Order from '@/components/sections/Order';
 import Footer from '@/components/layout/Footer';
+import './ArtLanding.css'; // Assuming this is the correct path for your CSS file
+import AboutArtist from "@/components/sections/AboutArtist";
+
 
 function App() {
   const scrollToSection = (sectionId) => {
@@ -24,10 +27,11 @@ function App() {
       </Helmet>
       
       <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-red-50">
-        <Navbar scrollToSection={scrollToSection} />
+        <Navbar1 scrollToSection={scrollToSection} />
         <main>
-          <Hero scrollToSection={scrollToSection} />
+          <Hero1 scrollToSection={scrollToSection} />
           <About />
+          <AboutArtist />
           <Gallery />
           <Order />
         </main>
