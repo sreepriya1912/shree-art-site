@@ -40,8 +40,7 @@ export default function AboutArtist({
               <div className="p-4 bg-gradient-to-r from-amber-50 to-orange-50 border-t border-amber-100">
                 <p className="text-center font-semibold text-stone-800">{name}</p>
                 <p className="text-center text-sm text-stone-600">
-                  ICT–Art · {school}
-                </p>
+Artist                </p>
               </div>
             </div>
           </div>
