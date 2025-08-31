@@ -6,47 +6,48 @@ import { useNavigate } from "react-router-dom";
 import { FolderOpen } from "lucide-react";
 
 const categories = [
-  {
-    title: "Oil Paintings",
-    slug: "oil",
-    description: "Classic realism, portraits, and landscapes in oils.",
-    cover:
-      "https://images.unsplash.com/photo-1549880338-65ddcdfd017b?q=80&w=1600&auto=format&fit=crop",
-    count: 32,
-  },
-  {
-    title: "Acrylic Paintings",
-    slug: "acrylic",
-    description: "Bold colors and contemporary styles in acrylic.",
-    cover:
-      "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?q=80&w=1600&auto=format&fit=crop",
-    count: 27,
-  },
-  {
+   {
     title: "Tanjore Paintings",
     slug: "tanjore",
     description:
       "Intricate gold foil work and rich devotional iconography.",
     cover:
-      "https://images.unsplash.com/photo-1696192958959-37896599c6b7?q=80&w=1600&auto=format&fit=crop",
-    count: 18,
+      "/images/tanjore/tanjorecover.png",
+    count: 2,
   },
+  // {
+  //   title: "Oil Paintings",
+  //   slug: "oil",
+  //   description: "Classic realism, portraits, and landscapes in oils.",
+  //   cover:
+  //     "/images/oil/oilcover.png",
+  //   count: 1,
+  // },
   {
-    title: "Classical Art",
-    slug: "classical",
-    description: "Traditional Indian styles and techniques.",
+    title: "Acrylic Paintings",
+    slug: "acrylic",
+    description: "Bold colors and contemporary styles in acrylic.",
     cover:
-      "https://images.unsplash.com/photo-1544776193-352d25ca82cd?q=80&w=1600&auto=format&fit=crop",
-    count: 14,
+      "/images/acrylic/acryliccover.png",
+    count: 1,
   },
-  {
-    title: "Contemporary Art",
-    slug: "contemporary",
-    description: "Modern expressions, abstracts and mixed media.",
-    cover:
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=1600&auto=format&fit=crop",
-    count: 21,
-  },
+ 
+  // {
+  //   title: "Classical Art",
+  //   slug: "classical",
+  //   description: "Traditional Indian styles and techniques.",
+  //   cover:
+  //     "https://images.unsplash.com/photo-1544776193-352d25ca82cd?q=80&w=1600&auto=format&fit=crop",
+  //   count: 14,
+  // },
+  // {
+  //   title: "Contemporary Art",
+  //   slug: "contemporary",
+  //   description: "Modern expressions, abstracts and mixed media.",
+  //   cover:
+  //     "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=1600&auto=format&fit=crop",
+  //   count: 21,
+  // },
 ];
 
 const Gallery = () => {
@@ -67,7 +68,7 @@ const Gallery = () => {
   return (
     <section
       id="gallery"
-      className="py-20 bg-gradient-to-br from-amber-50 via-orange-50 to-red-50"
+      className="py-5 bg-gradient-to-br from-amber-50 via-orange-50 to-red-50"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
@@ -128,13 +129,13 @@ const Gallery = () => {
 
               {/* Optional CTA row */}
               <div className="px-6 pb-6">
-                <Button
+                {/* <Button
                   variant="secondary"
                   onClick={() => handleOrderClick(cat.title)}
                   className="w-full bg-white border border-gray-200 hover:bg-gray-50 rounded-xl"
                 >
                   Commission in {cat.title}
-                </Button>
+                </Button> */}
               </div>
             </motion.article>
           ))}

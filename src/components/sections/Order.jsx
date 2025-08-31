@@ -66,7 +66,7 @@ const Order = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800">Premium Materials</h4>
-                  <p className="text-gray-600">22k gold foil, precious stones, and natural pigments</p>
+                  <p className="text-gray-600">gold foil, precious stones, and natural pigments</p>
                 </div>
               </div>
               

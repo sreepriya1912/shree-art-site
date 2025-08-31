@@ -1,10 +1,11 @@
 import React from "react";
 import { Award, GraduationCap, Palette, Trophy } from "lucide-react";
+import SectionHeading from "@/components/ui/sectionheading";
 
 export default function AboutArtist({
   photoUrl = "/images/Surya.png",
-  name = "Shree Suryanarayana Y. A.",
-  education = "Masters in Fine Arts, Alumni of Karnataka Chitrakala Parishath",
+  name = "Suryanarayana Y. A.",
+  education = "Masters in Fine Arts and an alumni of Karnataka Chitrakala Parishath",
   years = "30+",
   school = "Kendriya Vidyalaya AFS Yelahanka, Bengaluru",
   joinDate = "Aug 1995",
@@ -20,12 +21,10 @@ export default function AboutArtist({
   const schoolShort = (school || "").split(",")[0] || "Kendriya Vidyalaya";
 
   return (
-    <section id="about-artist" className="py-16">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="about-artist" className="py-12 bg-amber-50">
+      <div className="max-w-5xl mx-auto px-4">
         {/* Title */}
-        <h2 className="text-center font-serif text-3xl md:text-4xl text-stone-900 mb-10">
-          About the Artist
-        </h2>
+        <SectionHeading title="About the Artist" />
 
         {/* Layout: image left, content right */}
         <div className="grid lg:grid-cols-3 gap-8 items-start">
@@ -33,14 +32,13 @@ export default function AboutArtist({
           <div className="mx-auto w-full max-w-sm">
             <div className="relative rounded-2xl overflow-hidden shadow-xl ring-2 ring-amber-400/60 bg-white">
               <img
-                src={photoUrl}
+                src="/images/Surya.png"
                 alt={name}
                 className="w-full h-[420px] object-cover"
               />
               <div className="p-4 bg-gradient-to-r from-amber-50 to-orange-50 border-t border-amber-100">
                 <p className="text-center font-semibold text-stone-800">{name}</p>
-                <p className="text-center text-sm text-stone-600">
-Artist                </p>
+                <p className="text-center text-sm text-stone-600">Artist</p>
               </div>
             </div>
           </div>

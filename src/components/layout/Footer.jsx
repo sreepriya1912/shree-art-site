@@ -9,11 +9,11 @@ const Footer = ({ scrollToSection }) => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Palette className="h-8 w-8 text-amber-300" />
-              <span className="text-2xl font-bold">Tanjore Art</span>
+              <span className="text-2xl font-bold">Shree school of art</span>
             </div>
             <p className="text-amber-100 leading-relaxed">
-              Preserving the divine tradition of Tanjore paintings and bringing 
-              authentic South Indian art to homes worldwide.
+              We conduct art classes for adults and children of all age groups, 
+      along with specialized Tanjore painting workshops and creative sessions.
             </p>
           </div>
           
@@ -53,7 +53,7 @@ const Footer = ({ scrollToSection }) => {
         
         <div className="border-t border-amber-700 mt-8 pt-8 text-center">
           <p className="text-amber-200">
-            © 2025 Tanjore Art. All rights reserved. Preserving tradition, creating beauty.
+            Preserving tradition, creating beauty.
           </p>
         </div>
       </div>
