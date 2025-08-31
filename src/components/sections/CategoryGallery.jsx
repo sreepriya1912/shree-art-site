@@ -65,7 +65,7 @@ const ITEMS = {
     { title: "Girl with an instrument", img: "/images/acrylic/acrylic7.jpeg", size: "1 × 1 ft", priceFrom: 1000 },
     { title: "Abstract Ganesha 2", img: "/images/acrylic/acrylic8.jpeg", size: "1.5 × 1.5 ft", priceFrom: 1000 },
     { title: "Bride", img: "/images/acrylic/acrylic9.jpeg", size: "1 × 1.5 ft", priceFrom: 1000 },
-    { title: "Acrylic Painting 10", img: "/images/acrylic/acrylic10.jpeg", size: "1 × 1 ft", priceFrom: 1000 }
+    { title: "Abstract musical instruments", img: "/images/acrylic/acrylic10.jpeg", size: "1 × 1 ft", priceFrom: 1000 }
 
   ],
 };
